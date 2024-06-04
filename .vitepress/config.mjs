@@ -27,8 +27,8 @@ export default defineConfig({
         ],
       },
     ],
-    sidebar: false,
-    aside: "left",
+    // sidebar: false,
+    // aside: "left",
 
     // sidebar: [
     //   {
