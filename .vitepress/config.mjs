@@ -3,7 +3,9 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/Macao.ico" }]],
+  base: "/vitepress-book/",
+
+  head: [["link", { rel: "icon", href: "/vitepress-book/Macao.ico" }]],
   title: "Sictransitgloriamund",
   description: "Personal library",
 
@@ -38,7 +40,7 @@ export default defineConfig({
     //   }
 
     // ],
-    //sidebar: {"/font-end/react":set_sidebar("font-end/react")},
+    sidebar: {"/font-end/react":set_sidebar("font-end/react")},
 
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
