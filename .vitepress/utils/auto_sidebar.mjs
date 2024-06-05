@@ -34,6 +34,7 @@ const getList = (params, path1, pathName) => {
       result.push({
         text: name,
         link: `${pathName}/${name}`,
+        collapsed: true,
       });
     }
   }
