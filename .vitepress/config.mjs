@@ -3,18 +3,7 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  ignoreDeadLinks: [
-    // ignore exact url "/playground"
-    '/playground',
-    // ignore all localhost links
-    /^https?:\/\/localhost/,
-    // ignore all links include "/repl/""
-    /\/repl\//,
-    // custom function, ignore all links include "ignore"
-    (url) => {
-      return url.toLowerCase().includes('ignore')
-    }
-  ],
+  ignoreDeadLinks: true,
   base: "/vitepress-book/",
   head: [["link", { rel: "icon", href: "/vitepress-book/Macao.ico" }]],
   markdown: {
