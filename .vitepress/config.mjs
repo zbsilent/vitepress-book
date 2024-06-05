@@ -46,7 +46,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "示例", link: "/markdown-examples" },
+      // { text: "示例", link: "/markdown-examples" },
       { text: "后端开发", items: [
         { text: "java", link: "/back-end-development/java/" },
          { text: "spring", link: "/back-end-development/spring/" }
@@ -62,14 +62,15 @@ export default defineConfig({
          // { text: "Md语法2", link: "/tools-development/Docker/ddd/" },
         ],
        },
-      { text: "两边栏演示", link: "/两边栏演示" },
-      {
-        text: "下拉测试",
-        items: [
-          { text: "Vue", link: "/font-end/react/" },
-          { text: "React2", link: "/front-end-development/react/" },
-        ],
-      },
+       { text: "工作",link: "/works/developer-docs/"}
+      // { text: "两边栏演示", link: "/两边栏演示" },
+      // {
+      //   text: "下拉测试",
+      //   items: [
+      //     { text: "Vue", link: "/font-end/react/" },
+      //     { text: "React2", link: "/front-end-development/react/" },
+      //   ],
+      // },
     ],
     /*sidebar: false,
     aside: "left",
@@ -90,6 +91,7 @@ export default defineConfig({
       "/tools-development/Git": set_sidebar("tools-development/Git"),
       "/tools-development/Mac": set_sidebar("tools-development/Mac"),
       "/tools-development/Md": set_sidebar("tools-development/Md"),
+      //"/works/developer-docs": set_sidebar("tools-development/Docker/ddd"),
     },
 
     socialLinks: [
