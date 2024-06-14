@@ -63,7 +63,8 @@ export default defineConfig({
          // { text: "Md语法2", link: "/tools-development/Docker/ddd/" },
         ],
        },
-       { text: "工作",link: "/works/developer-docs/"}
+       { text: "工作", items:[{text:"首页",link: "/works/developer-docs/"},
+       {text:"旗舰版客开记录",link: "/works/developer-docs/旗舰版开发学习.md"}] },
       // { text: "两边栏演示", link: "/两边栏演示" },
       // {
       //   text: "下拉测试",
